@@ -3,11 +3,10 @@
 
 
 body{
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Open Sans';
 }
 .navbar {
-  position: absolute;
-  top: 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -126,6 +125,8 @@ font-size: 40px;
 	background-size: cover;
 	color: #fff;
   height: 600px;
+  display: grid;
+
 }
 
 
@@ -140,3 +141,97 @@ font-size: 40px;
 
 
 
+/*header start*/
+/*map image*/
+
+.map{
+  margin-left: 60%;
+margin-top: 4%;}
+
+.mainh1{
+  color: black;
+}
+.mainp {
+  color: black;
+}
+.main-content{
+  margin: 5%;
+}
+
+
+/** * Tabs */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tabs label {
+  order: 1;
+  display: block;
+  padding: 1rem 2rem;
+  margin-right: 0.2rem;
+  cursor: pointer;
+  background: #90caf9;
+  font-weight: bold;
+  transition: background ease 0.2s;
+}
+.tabs .tab {
+  order: 99;
+  flex-grow: 1;
+  width: 100%;
+  display: none;
+  padding: 1rem;
+  background: #fff;
+}
+.tabs input[type="radio"] {
+  display: none;
+}
+.tabs input[type="radio"]:checked + label {
+  background: #fff;
+}
+.tabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+@media (max-width: 45em) {
+  .tabs .tab, .tabs label {
+    order: initial;
+ }
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+ }
+}
+
+.aside{
+  border: 2px solid #88c3e2;
+  background-color: #8FCDEE;
+  margin: 4%;
+  height: 80%;
+}
+.btn-group button {
+  background-color: #aedcea; /* Green background */
+  border: 1px solid rgb(178, 239, 230); /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 50%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+  border-radius: 15px;
+}
+
+
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: skyblue
+}
+
+.data{
+  border: solid 2px grey;
+  border-radius: 8px;
+}
+.data1{
+  border: solid 2px grey;
+  border-radius: 8px;
+  margin-top: 10%;
+}
