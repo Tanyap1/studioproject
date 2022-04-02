@@ -1,0 +1,12 @@
+.bg-primary-color {
+  background-color: #4baee4;
+}
+
+/* button */
+.navbar-toggler {
+  display: block !important;
+}
+
+#navbarSupportedContent {
+  display: none !important;
+}
